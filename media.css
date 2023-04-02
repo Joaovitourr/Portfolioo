@@ -1,0 +1,205 @@
+
+@media (max-width: 450px){
+    .heading-sobre > h2{
+      font-size: 1.3rem;
+    } .paragraph{
+      font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .hamburguer{
+        display: block;
+    } .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    
+    } .hamburguer.active .bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+    }     
+    .hamburguer.active .bar:nth-child(3){
+       transform: translateY(-8px) rotate(-45deg);
+    } .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        background-color: #000;
+        text-align: right;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.4s;
+    }  
+
+    .nav-item{
+        margin: 16px 0;
+
+    } .nav-menu.active{
+        left: 0%;
+    }      }
+
+  /* Media responsivo*/
+ 
+  @media (min-width: 800px){ 
+
+    .heading-1{
+        font-size: 2.3rem;
+     } .heading-1 > span{
+        font-size: 3rem;
+     }  
+       .accordion{
+    
+        margin: 0 auto;
+        max-width: 80rem;
+       }  .about{
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         } 
+      
+     
+     .heading-2{
+   text-align: left;
+        font-size: 2.1rem;
+     } .box-about{
+        text-align: left;
+        max-width: 25rem;
+    
+     } .heading-cursos, .titulo-sobre{
+        padding-top: 2rem;
+        font-size: 2.4rem;
+     }
+     
+     .harvey-header{
+        width: 20rem;
+     } 
+     .cursos{
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        max-width: 50rem;
+     } 
+     .sobre{ 
+      max-width:  100%;
+      margin: 0 auto;
+ display: flex;
+       align-items: center;
+       flex-direction: row;
+       justify-content: space-evenly;
+     
+
+     }  .icon-sobre{
+      width: 14rem;
+   }   .project-box{
+      max-width: 40rem;
+   } .work-title{
+      font-size: 2.3rem;
+   } .work-article{
+      height: 22rem;
+      width: 20rem;
+   } .icon-work{
+      width: 19rem;
+   }
+   .lista{
+      font-size: 1.6rem;
+   }
+   } 
+     
+ 
+   
+
+
+  @media (min-width: 1024px){ 
+   .icon-sobre{
+      width: 25rem;
+      padding-bottom: 5rem;
+   }      .heading-project{
+       
+      Font-size: 3rem;
+      margin-bottom: 5rem;
+      }
+   .works-project{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 auto;
+      gap: 2rem;
+      max-width: 60rem;
+   }
+   
+   .heading-sobre{
+      max-width: 40rem;
+      
+   }  .habilidades{
+      max-width: 50rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 0 auto;
+    
+     
+      
+    }  
+   .about-me{ 
+      max-width: 40rem;
+
+   } 
+   .heading-sobre > h2{
+      font-size: 2.8rem;
+   } .paragraph{
+      font-size: 2.3rem;
+   } .harvey-header{
+      width: 35rem;
+    
+   } .heading-1{
+      font-size: 2.3rem;
+   } .heading-1 > span{
+      font-size: 3rem;
+   }
+   
+   .heading-work{
+      font-size: 2.3rem;
+   } .heading-work > span{
+      font-size: 2.4rem;
+   }
+} 
+ .article-habilidades{
+  height: 21rem;
+  
+} .nota > p{
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+  
+} .habilidades-titulo{
+  font-size: 2rem;
+} .botao-y, .botao-x{
+  height: 0.4rem;
+}       
+   
+ 
+
+
+ .article-projetos{
+   height: 30rem;
+   width: 30rem;
+ } .titulo-projeto{
+   font-size: 1.8rem;
+   margin: 2rem 0rem;
+ } .img-projeto{
+   width: 30rem;
+ } .skills-used{
+   font-size: 1.6rem;
+ } .heading-projetos{
+   padding: 2rem 0rem;
+   font-size: 2.3rem;
+ }   @media (min-width: 1100px){
+   .works-project{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 auto;
+      gap: 2rem;
+      max-width: 60rem;
+   } .icon-sobre{
+      width: 35rem;
+   }
+ }
